@@ -1,5 +1,4 @@
-# keeweb-cupertino-theme
-Cupertino Theme (light &amp; dark) for KeeWeb
+# Cupertino Theme (light &amp; dark) for KeeWeb
 
 ### Auto Dark/Light mode
 ![Auto](./img/auto.png)
