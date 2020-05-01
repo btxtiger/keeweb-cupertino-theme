@@ -16,7 +16,7 @@
   "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuK9byL3W0Rb1u3l5Hl/qCTISIw2fnya1SqBSq0HyUFhZV6kYWGfyhfJIpcFot++ZjdM9uAJ6Dcaa1Um88dtnV4xICZXPozdwAP4B7EbigJG3toIWpcCaDeQRUzTsGIvI8DrIy1GDrIGhFTL/6o5SKIVpIRmVfcXBVQLuoANpOf8R+kNPtLa4z0QvJ2Cx7Uh/zYluD7/2W5ZUc2NzJTPVchz1LXTTnlElL3T3QiuvEO1NJb0Qdp8Al/KC1HEWgr63tNDRyc7vfbjpCLG2pklcEyiMp4HgQ7b5eWwdwhgIbuFdbx3GVvUay75bAENq++M2n6kiVq5t9pCLvbsBpzvVkQIDAQAB",
   "license": "MIT",
   "theme": {
-    "name": "keeweb-cupertino-theme",
+    "name": "keeweb-cupertino-light",
     "title": "Cupertino Theme (Light)"
   }
 }

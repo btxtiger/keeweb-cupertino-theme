@@ -9,14 +9,14 @@
     "url": "https://github.com/btxtiger"
   },
   "resources": {
-    "css": "kWEC/LSQ9bH7JYTxhqeTHVv0dYBSeJsmGUoV1bGEjxDtnO1QbRCOi1793gib8SGMo1JZ5qFplX19OhZZ4WHe6o0CEasb5miSKrDX4S7NQm6K9XZOoYHCGW8tMSOj9ubyOiWkj+o9vw72LU1dNRJCsMI+nrUTshxPFeyPFZ9ALNv/5awG4VLgGHOSiUkTCfhmDRbQZ+XrQKBQYABaa2bQlf9FU5+OM1J1DEQgp0arLVhTN3vHNWd0mA0HUen+VGnrZdD7b82WEtWOhSpJ0c6pfgg71/1bthKoUabmWiisEfiZDRvfo+qEOcqIZ2eY6Vl3/3NWwSoCmCp9rErdhXp5Hw=="
+    "css": "HvzkY2uPrvCmgi42rfQYtmW1nfJKxjsZsMZ5kyuXpJGATFvvrK/fs2ZOQmQJSsSf2R+alnvjgN/0onWm2gX71ewEElWph6hACnlCKKrv1wMtficYoHXD850E0rbEKZGR4wWVpVe/5XyC3G/0BjGxwMNO1pV5Aw2pTlV13JlkJ3V9NlGlp1wyO35XPx/sNq0DIQ07e7Ui8C6SETQ82gLYOpwYWGuw1+NEiBccgy5wGGkxFLy0JNowDYoapV0cyvPOB3HuB/1o6NX1aejtUvLyvHXZzw7SEo8XVpAPqpULNIFYChRW0wn7ZUxtx90aGxaqFGTSyk4nyoW+Sxfb0OI0Gg=="
   },
   "licence": "",
   "url": "https://github.com/btxtiger/keeweb-cupertino-theme",
   "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlVR9e95b1q1M+kRQUO9z6x/S4xTUpUoY6UsgOsEhvRf+Xg54PQEMZo6WndKhWWpyK57QE7njGMffGGS2n2izk5M1H1wiIh66nvmMbnHHPi1l3NlkiV1YtUQOXLFPXwk+vTK1YhfaBH8xuSM0qBE/joE7aoLR61eNlBMDpyoWhvUh7WjvUZ/MQFl9Wfu1WAVYlgZnuWDsjAfOgScdOZZodtJ1TWXsxIDzO5usL3fgy3mrUeARq67KEhShGNCEivWCtdWKkrxejiGbx7irZMq5+YUmBy3icS3zNVCX+YorgdAGB0pdpkx5eLJ9YfAU4vvBRD1xEWdnZy2zvqGWxxxkSwIDAQAB",
   "license": "MIT",
   "theme": {
-    "name": "keeweb-cupertino-theme",
+    "name": "keeweb-cupertino-auto",
     "title": "KeeWeb Cupertino Theme (Development)"
   }
 }
