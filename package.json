@@ -4,7 +4,7 @@
    "repository": "",
    "version": "1.0.0",
    "scripts": {
-      "start": "concurrently \"npm run keeweb-plugin:watch\" \"npm run scss:watch\"",
+      "start": "npm run scss:compile && concurrently \"npm run keeweb-plugin:watch\" \"npm run scss:watch\"",
       "keeweb-plugin": "keeweb-plugin sign .",
       "keeweb-plugin:watch": "keeweb-plugin watch .",
       "scss:watch": "concurrently \"npm run scss:watch:src\" \"npm run scss:watch:plugin\"",
