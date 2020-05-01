@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "manifestVersion": "0.1.0",
-  "name": "keeweb-cupertino-theme-dark",
+  "name": "theme-cupertino-light",
   "description": "Cupertino Theme (Dark)",
   "author": {
     "name": "Jonas Gnioui",

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "manifestVersion": "0.1.0",
-  "name": "keeweb-cupertino-theme-auto",
+  "name": "theme-cupertino-auto",
   "description": "Cupertino Theme (Auto)",
   "author": {
     "name": "Jonas Gnioui",
