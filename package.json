@@ -1,0 +1,27 @@
+{
+   "name": "keeweb-cupertino-theme",
+   "description": "Cupertino Theme for KeeWeb",
+   "repository": "",
+   "version": "1.0.0",
+   "scripts": {
+      "start": "concurrently \"npm run keeweb-plugin:watch\" \"npm run scss:watch\"",
+      "keeweb-plugin": "keeweb-plugin sign .",
+      "keeweb-plugin:watch": "keeweb-plugin watch .",
+      "scss:watch": "concurrently \"npm run scss:watch:src\" \"npm run scss:watch:plugin\"",
+      "scss:watch:src": "node-sass --watch src -o dist",
+      "scss:watch:plugin": "node-sass --watch src/plugin.scss -o .",
+      "scss:compile": "concurrently \"npm run scss:compile:src\" \"npm run scss:compile:plugin\"",
+      "scss:compile:src": "node-sass src -o dist",
+      "scss:compile:plugin": "node-sass src/plugin.scss -o .",
+      "format-prettier": "prettier --write \"./src/**/*.{ts,scss,json}\"",
+      "release": "sh make-release.sh"
+   },
+   "author": "Jonas Gnioui <btxtiger@outlook.com>",
+   "license": "MIT",
+   "devDependencies": {
+      "concurrently": "^5.2.0",
+      "keeweb-plugin": "^0.1.11",
+      "node-sass": "^4.14.0",
+      "prettier": "^2.0.5"
+   }
+}

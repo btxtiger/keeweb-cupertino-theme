@@ -1,0 +1,177 @@
+@mixin startOpenFile {
+   /**
+     * Start page
+     */
+   .open {
+      align-items: stretch;
+      background: var(--color-mac-settings-section-background-dark);
+      border-radius: 4px;
+
+      .open__icons {
+         background: var(--color-mac-settings-section-background);
+         padding: 20px 0;
+
+         .open__icon {
+            padding: 10px 20px;
+            margin: 0;
+
+            &:hover {
+               background: var(--intermediate-background-color);
+               color: var(--color-mac-text-default);
+               border-radius: 4px;
+            }
+         }
+      }
+
+      .open__icons.open__icons--lower {
+         margin-top: -20px;
+         padding-top: 0;
+         padding-bottom: 20px;
+      }
+
+      .open__pass-area {
+         width: 100%;
+         padding: 20px 0;
+
+         .open__pass-field-wrap {
+            margin-bottom: 30px;
+
+            .open__pass-input {
+               padding: 30px;
+               border-radius: 6px;
+               border: 2px solid var(--color-mac-blue-list-highlight);
+               margin: 0 auto;
+            }
+
+            .open__pass-enter-btn,
+            .open__pass-opening-icon {
+               color: var(--color-mac-blue-list-highlight);
+               right: 22vw;
+               left: unset;
+            }
+         }
+
+         .open__settings {
+            display: flex;
+            align-items: center;
+            height: 35px;
+            width: 100%;
+            max-width: 38vw;
+            margin: 0 auto;
+            padding-left: 0;
+
+            &:hover {
+               background: var(--color-mac-window-content-panel);
+               color: var(--color-mac-text-default);
+               border-radius: 4px;
+            }
+
+            .open__settings-key-file {
+               color: var(--color-mac-text-default);
+               padding: 0.5em 1em;
+
+               .open__settings-key-file-dropbox {
+                  color: var(--color-mac-text-default);
+               }
+            }
+         }
+
+         .open__last {
+            width: 100%;
+            max-width: 38vw;
+            margin: 0 auto;
+
+            .open__last-item {
+               color: var(--color-mac-text-default);
+
+               &:hover {
+                  background: var(--color-mac-window-content-panel);
+                  color: var(--color-mac-text-default);
+                  border-radius: 4px;
+               }
+
+               .open__last-item-icon-del {
+                  color: var(--color-mac-text-default);
+               }
+            }
+         }
+      }
+
+      /**
+        * Start page icons
+        */
+      .open__icons {
+         .open__icon-i,
+         .open__icon-svg {
+            font-size: 40px;
+         }
+
+         .fa-lock {
+            background-image: linear-gradient(to top, orange, orange, orange, orange, grey, #bdbdbd, #e2e2e2);
+            -webkit-background-clip: text;
+            color: transparent;
+         }
+
+         .fa-bolt {
+            background-image: linear-gradient(to top, orange, orange, orange, orange, orange, yellow, #bdbdbd);
+            -webkit-background-clip: text;
+            color: transparent;
+         }
+
+         .fa-dropbox {
+            color: #0055f8;
+         }
+
+         div#open__icon-storage--gdrive {
+            svg path {
+               fill: #e03a2d;
+            }
+         }
+
+         div#open__icon-storage--onedrive {
+            svg path {
+               fill: #006dce;
+            }
+         }
+
+         .fa-cog {
+            background-image: linear-gradient(to top, #626262, #8d8d8d, #aeaeae, #777);
+            -webkit-background-clip: text;
+            color: transparent;
+         }
+
+         .fa-server {
+            color: #0074bc;
+         }
+
+         .fa-plus {
+            background-image: linear-gradient(to top, #258115, #3f9d44, #1ab80f, #56c618);
+            -webkit-background-clip: text;
+            color: transparent;
+         }
+
+         .fa-magic {
+            background-image: linear-gradient(to top, #333, #333, gray, purple, violet);
+            -webkit-background-clip: text;
+            color: transparent;
+         }
+
+         .fa-ellipsis-h:before {
+            background-image: linear-gradient(to top, rgb(19, 109, 207), rgb(7, 120, 245), rgb(0, 183, 255));
+            -webkit-background-clip: text;
+            color: transparent;
+         }
+
+         .open__icon-text {
+            color: #717171;
+            font-size: var(--font-size-label);
+            font-weight: 300;
+            letter-spacing: -0.5pt;
+
+            &:hover {
+               color: #717171;
+            }
+         }
+      }
+   }
+}

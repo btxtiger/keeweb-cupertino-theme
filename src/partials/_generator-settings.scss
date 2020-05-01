@@ -1,0 +1,21 @@
+@mixin generatorSettings {
+   .gen-ps__content {
+      .gen-ps__field {
+         display: flex;
+         align-items: center;
+         flex-flow: row wrap;
+
+         input[type='text'] {
+            width: 100%;
+         }
+
+         .gen-ps__sample {
+            color: var(--color-mac-text-default);
+         }
+
+         i.fa {
+            color: var(--color-mac-text-default);
+         }
+      }
+   }
+}

@@ -1,0 +1,15 @@
+@mixin groupEdit {
+   .grp {
+      .scroller {
+         .grp__content {
+            .grp__field {
+            }
+
+            & > div:not([class]) {
+               display: flex;
+               align-items: center;
+            }
+         }
+      }
+   }
+}

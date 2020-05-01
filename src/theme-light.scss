@@ -1,0 +1,10 @@
+@import 'defaults';
+@import 'defaults-custom';
+@import 'partials/index';
+
+.th-keeweb-cupertino-theme {
+   @include variablesDefault;
+   @include variablesCustomDefault;
+   @include variablesCustomLight;
+   @include theme;
+}

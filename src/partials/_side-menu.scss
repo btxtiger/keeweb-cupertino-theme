@@ -1,0 +1,120 @@
+@mixin sideMenu {
+   /**
+     * Side menu
+     */
+   .app__menu {
+      .menu {
+         //border-top-left-radius: 4px;
+         //border-bottom-left-radius: 4px;
+         //border: 1px solid var(--light-border-color);
+         border-right-width: 0;
+         background: var(--color-mac-finder-sidebar-background);
+
+         .menu__section {
+            border: none;
+
+            .menu__item {
+               .menu__item-body {
+                  //display: flex;
+                  //align-items: center;
+                  padding-top: 3px;
+                  padding-bottom: 3px;
+
+                  &:hover {
+                     background: var(--color-mac-finder-sidebar-background);
+                     color: var(--color-mac-finder-sidebar-text);
+                  }
+
+                  .menu__item-title {
+                     color: var(--color-mac-finder-sidebar-text);
+                     padding-left: 0.1em;
+                  }
+
+                  .menu__item-icon {
+                     color: var(--color-mac-finder-sidebar-icon);
+                  }
+
+                  .menu__item-edit,
+                  .menu__item-empty-trash {
+                     opacity: 0.5;
+                     top: 6px;
+                     color: var(--color-mac-text-default);
+                  }
+               }
+
+               .fa {
+                  font-size: 15px;
+                  flex-basis: 30px;
+                  text-align: center;
+               }
+
+               &.menu__item--active {
+                  .menu__item-body {
+                     background: var(--color-mac-finder-sidebar-highlight);
+                     color: var(--color-mac-finder-sidebar-text);
+
+                     .menu__item-title,
+                     .menu__item-icon,
+                     .menu__item-edit {
+                        color: var(--color-mac-finder-sidebar-text-active);
+                     }
+
+                     svg {
+                        fill: #000;
+                     }
+
+                     &:hover {
+                        background: var(--color-mac-finder-sidebar-highlight);
+                        color: var(--color-mac-finder-sidebar-text-active);
+                     }
+                  }
+
+                  //&:focus, &:active {
+                  //   .menu__item-body {
+                  //      background: var(--color-mac-blue-list-highlight);
+                  //      color: var(--color-mac-blue-list-highlight-text);
+                  //
+                  //      .menu__item-title,
+                  //      .menu__item-icon,
+                  //      .menu__item-edit {
+                  //         color: var(--color-mac-blue-list-highlight-text);
+                  //      }
+                  //
+                  //      &:hover {
+                  //         background: var(--color-mac-blue-list-highlight);
+                  //         color: var(--color-mac-blue-list-highlight-text);
+                  //      }
+                  //   }
+                  //}
+               }
+            }
+
+            &:last-child {
+               border-top: 1px solid var(--color-mac-footer-toolbar-border);
+            }
+         }
+
+         .menu__drag-section {
+            background: transparent;
+            height: 13px;
+
+            .drag-handle__inner {
+               border-top: 1px solid var(--color-mac-window-drag-handle);
+               height: 13px;
+            }
+         }
+      }
+   }
+
+   .app__menu-drag {
+      background: transparent;
+      width: 13px;
+      margin-left: -13px;
+
+      .drag-handle__inner {
+         border-right: 1px solid var(--color-mac-window-drag-handle);
+         width: 13px;
+         left: 0;
+      }
+   }
+}

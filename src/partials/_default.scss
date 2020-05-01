@@ -1,0 +1,126 @@
+@mixin default {
+   font-size: var(--font-size);
+
+   a {
+      color: var(--color-mac-text-default);
+   }
+
+   .muted-color {
+      color: var(--color-mac-text-default);
+   }
+
+   /**
+    * Input fields, buttons
+    */
+   [type='button'],
+   [type='reset'],
+   [type='submit'],
+   button,
+   select,
+   input:not([type]),
+   input[type='password'],
+   input[type='text'],
+   textarea {
+      height: 21px;
+      padding: 0 8px;
+      border-color: var(--color-mac-input-border);
+      background: var(--color-mac-input-background);
+      color: var(--color-mac-text-default);
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07);
+      border-radius: 4px;
+      font-family: var(--font-family);
+      font-size: var(--font-size-label);
+      font-weight: 400;
+      letter-spacing: -0.4px;
+
+      &::placeholder {
+         color: var(--color-mac-text-default);
+      }
+   }
+
+   button {
+      font-weight: 500;
+   }
+
+   button,
+   .settings__plugins-gallery-load-btn,
+   .settings_plugins-install-btn {
+      border: 1px solid var(--color-mac-button-default-border);
+      background-image: var(--color-mac-button-active-background);
+      color: var(--color-mac-text-light);
+
+      &:hover {
+         background-image: var(--color-mac-button-active-background);
+         color: var(--color-mac-text-light);
+      }
+
+      &:active {
+         background-image: var(--color-mac-button-active-background-active);
+         border: 1px solid var(--color-mac-button-default-border);
+      }
+   }
+
+   button.btn-error {
+      background-image: var(--color-mac-button-danger-background);
+      color: var(--color-mac-text-light);
+      border: 1px solid var(--color-mac-button-default-border);
+
+      &:active {
+         background-image: var(--color-mac-button-danger-background-active);
+         border: 1px solid var(--color-mac-button-default-border);
+      }
+   }
+
+   button.btn-silent {
+      background: var(--color-mac-button-default-background);
+      border: 1px solid var(--color-mac-button-default-border);
+      color: var(--color-mac-text-default);
+
+      &:active {
+         background-image: var(--color-mac-button-active-background-active);
+         color: var(--color-mac-text-light);
+         border: 1px solid var(--color-mac-button-default-border);
+      }
+   }
+
+   input[type='checkbox'] {
+      display: inline-block;
+      font-size: var(--font-size-label);
+      vertical-align: top;
+
+      &.input-base {
+         width: auto;
+      }
+   }
+
+   input[type='text'],
+   input[type='password'],
+   input:not([type]),
+   textarea {
+      border-radius: 0;
+
+      &:active,
+      &:focus {
+         border: 2px solid rgba(0, 122, 255, 0.7);
+         box-shadow: 0px 0px 3px var(--color-mac-blue-list-highlight);
+      }
+   }
+
+   input[type='range']::-webkit-slider-thumb {
+      color: var(--color-mac-text-default);
+   }
+   input[type='range']::-ms-track {
+      color: var(--color-mac-text-default);
+      background: var(--color-mac-text-default);
+      border-color: var(--color-mac-text-default);
+   }
+
+   label {
+      font-family: var(--font-family);
+      margin-top: 5px;
+
+      &:before {
+         display: none !important;
+      }
+   }
+}

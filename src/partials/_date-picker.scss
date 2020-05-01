@@ -1,0 +1,54 @@
+@mixin datePicker {
+   .pika-single {
+      box-shadow: var(--color-mac-dropdown-box-shadow);
+      backdrop-filter: blur(20px);
+      border: 1px solid var(--color-mac-dropdown-border-outline);
+      border-radius: 4px;
+      background: var(--color-mac-dropdown-background);
+      color: var(--color-mac-text-default);
+
+      .pika-lendar {
+         .pika-title {
+            .pika-prev,
+            .pika-next {
+               border: 1px solid var(--color-mac-dropdown-border-outline);
+               border-radius: 4px;
+               background: var(--color-mac-input-background);
+
+               &:after {
+                  top: 2px;
+               }
+            }
+
+            .pika-prev:after {
+               border-right-color: var(--color-mac-text-default);
+            }
+            .pika-next:after {
+               border-left-color: var(--color-mac-text-default);
+            }
+
+            .pika-label {
+               background: var(--color-mac-dropdown-background);
+               color: var(--color-mac-text-default);
+
+               .pika-select {
+                  color: red;
+               }
+            }
+         }
+         .pika-table {
+            th {
+               color: var(--color-mac-text-default);
+            }
+            .pika-row {
+               .pika-button {
+                  &:hover {
+                     background: var(--color-mac-blue-list-highlight) !important;
+                     color: var(--color-mac-text-light) !important;
+                  }
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,59 @@
+@mixin generator {
+   /**
+     * GENERATOR
+     */
+   .gen {
+      box-shadow: var(--color-mac-dropdown-box-shadow);
+      width: 15em;
+      background: var(--color-mac-dropdown-background);
+      color: var(--color-mac-text-default);
+      backdrop-filter: blur(20px);
+      border: 1px solid var(--color-mac-dropdown-border-outline);
+      border-radius: 4px;
+
+      & > div:not([class]) {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: flex-start;
+         align-items: center;
+
+         .gen__btn-refresh {
+            flex-grow: 1;
+            display: flex;
+            justify-content: flex-end;
+            color: var(--color-mac-text-default);
+         }
+
+         input#gen__check-hide {
+            margin-top: 4px;
+            margin-right: 26px;
+            margin-left: 20px;
+
+            &::after {
+               content: 'Hide';
+               white-space: nowrap;
+               margin-left: 16px;
+               top: 25px;
+               position: absolute;
+            }
+         }
+
+         .gen__check {
+            width: 25%;
+            display: flex;
+            align-items: center;
+            flex-basis: 25%;
+            flex-wrap: nowrap;
+            margin-left: 0;
+         }
+      }
+
+      .gen__result {
+         user-select: all;
+         margin-top: 20px;
+         margin-bottom: 20px;
+         height: unset;
+      }
+   }
+}

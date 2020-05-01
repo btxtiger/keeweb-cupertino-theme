@@ -1,0 +1,33 @@
+@import 'app';
+@import 'default';
+@import 'generator';
+@import 'generator-settings';
+@import 'modal';
+@import 'password-list';
+@import 'settings';
+@import 'group-edit';
+@import 'side-menu';
+@import 'start-open-file';
+@import 'footer';
+@import 'dropdown';
+@import 'icon-select';
+@import 'tip';
+@import 'date-picker';
+
+@mixin theme {
+   @include default;
+   @include app;
+   @include generator;
+   @include generatorSettings;
+   @include modal;
+   @include passwordList;
+   @include settings;
+   @include sideMenu;
+   @include startOpenFile;
+   @include groupEdit;
+   @include footer;
+   @include dropdown;
+   @include tip;
+   @include iconSelect;
+   @include datePicker;
+}

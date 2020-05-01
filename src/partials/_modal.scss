@@ -1,0 +1,6 @@
+@mixin modal {
+   .modal {
+      backdrop-filter: blur(12px);
+      background: var(--color-mac-modal-backbground);
+   }
+}

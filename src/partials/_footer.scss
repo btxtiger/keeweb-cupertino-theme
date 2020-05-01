@@ -1,0 +1,49 @@
+@mixin footer {
+   .app__footer {
+      height: 34px;
+      border-color: var(--color-mac-list-item-divider);
+      background-image: var(--color-mac-footer-background);
+      display: flex;
+      align-items: center;
+      font-size: 11px;
+      font-weight: 400;
+      opacity: 0.9;
+
+      .footer {
+         align-items: center;
+         width: 100%;
+         height: 100%;
+      }
+
+      .footer__db {
+         padding-top: 0;
+         padding-bottom: 0;
+         color: var(--color-mac-footer-icons);
+         height: 100%;
+         display: flex;
+         align-items: center;
+
+         i.fa {
+            margin-right: 6px;
+         }
+      }
+
+      .footer__db--expanded {
+         flex: unset;
+      }
+
+      .footer__btn {
+         padding-top: 0;
+         padding-bottom: 0;
+         color: var(--color-mac-footer-icons);
+         height: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+
+         &.footer__btn-help {
+            margin-left: auto;
+         }
+      }
+   }
+}

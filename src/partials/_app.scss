@@ -1,0 +1,10 @@
+@mixin app {
+   /**
+    * App window
+    */
+   .app {
+      .app__body {
+         background: var(--color-mac-window-content-panel);
+      }
+   }
+}

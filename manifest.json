@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "manifestVersion": "0.1.0",
+  "name": "keeweb-cupertino-theme-development",
+  "description": "KeeWeb Cupertino Theme (Development)",
+  "author": {
+    "name": "Jonas Gnioui",
+    "email": "btxtiger@outlook.com",
+    "url": "https://github.com/btxtiger"
+  },
+  "resources": {
+    "css": "Yd5JT4TFSlZqm8hG9KPEcg2o3r1GjmWRE6q7XiqfaER3v4iljuH375drs/wvXn/EI7Hkz1Yl5yOVdfrA2NkjP8ay0l87Ed/lSS+EXw1BPC+5gNy+MWOojJh6LmQY2pP5qMtZOIaVvzaFQIxZCbS9yn1ynmL3M3tUL49tmwIdi+j+r9ygC4zDJWqNABQzOmhEQqNhbHdoe4JAIAefZanHn5AlE+Pp2RSvRBtm1PHv3IymQ0VW2pmf9/EtvAX2Kn/YkP9K4d+wZ88mtMAEhUC7kpXnayJcuXLG9hcXQCqcvkAuISs8UjKabzfFYVc+AmdFKa26bcrPxQmXyjFvHi51Lw=="
+  },
+  "licence": "",
+  "url": "https://github.com/btxtiger/keeweb-cupertino-theme",
+  "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlVR9e95b1q1M+kRQUO9z6x/S4xTUpUoY6UsgOsEhvRf+Xg54PQEMZo6WndKhWWpyK57QE7njGMffGGS2n2izk5M1H1wiIh66nvmMbnHHPi1l3NlkiV1YtUQOXLFPXwk+vTK1YhfaBH8xuSM0qBE/joE7aoLR61eNlBMDpyoWhvUh7WjvUZ/MQFl9Wfu1WAVYlgZnuWDsjAfOgScdOZZodtJ1TWXsxIDzO5usL3fgy3mrUeARq67KEhShGNCEivWCtdWKkrxejiGbx7irZMq5+YUmBy3icS3zNVCX+YorgdAGB0pdpkx5eLJ9YfAU4vvBRD1xEWdnZy2zvqGWxxxkSwIDAQAB",
+  "license": "MIT",
+  "theme": {
+    "name": "keeweb-cupertino-theme",
+    "title": "KeeWeb Cupertino Theme (Development)"
+  }
+}

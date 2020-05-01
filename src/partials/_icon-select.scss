@@ -1,0 +1,11 @@
+@mixin iconSelect {
+   .icon-select {
+      .icon-select__items {
+         .icon-select__icon {
+            &--active {
+               color: var(--color-mac-text-light);
+            }
+         }
+      }
+   }
+}
