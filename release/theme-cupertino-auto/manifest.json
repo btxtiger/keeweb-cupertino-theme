@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "manifestVersion": "0.1.0",
   "name": "keeweb-cupertino-theme-auto",
-  "description": "KeeWeb Cupertino Theme (Auto)",
+  "description": "Cupertino Theme (Auto)",
   "author": {
     "name": "Jonas Gnioui",
     "email": "btxtiger@outlook.com",
@@ -17,6 +17,6 @@
   "license": "MIT",
   "theme": {
     "name": "keeweb-cupertino-theme",
-    "title": "KeeWeb Cupertino Theme (Auto)"
+    "title": "Cupertino Theme (Auto)"
   }
 }

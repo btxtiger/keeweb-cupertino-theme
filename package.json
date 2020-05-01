@@ -11,7 +11,7 @@
       "scss:watch:src": "node-sass --watch src -o dist",
       "scss:watch:plugin": "node-sass --watch plugin/plugin.scss -o .",
       "scss:compile": "concurrently \"npm run scss:compile:src\" \"npm run scss:compile:plugin\"",
-      "scss:compile:src": "node-sass src -o dist",
+      "scss:compile:src": "node-sass src -o dist --output-style expanded",
       "scss:compile:plugin": "node-sass plugin/plugin.scss -o .",
       "format-prettier": "prettier --write \"./src/**/*.{ts,scss,json}\"",
       "release": "sh make-release.sh"
